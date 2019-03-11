@@ -1,0 +1,171 @@
+Received: from NEPESXCHCAS03.nuevaeps.red (192.168.90.46) by
+ NEPSEXCMBX03.nuevaeps.red (192.168.90.48) with Microsoft SMTP Server (TLS) id
+ 15.0.1367.3; Sat, 17 Nov 2018 06:52:02 -0500
+Received: from NAM03-CO1-obe.outbound.protection.outlook.com (216.32.181.16)
+ by NEPESXCHCAS03.nuevaeps.red (192.168.90.7) with Microsoft SMTP Server (TLS)
+ id 15.0.1367.3 via Frontend Transport; Sat, 17 Nov 2018 06:52:02 -0500
+Received: from SN4PR0701CA0012.namprd07.prod.outlook.com
+ (2603:10b6:803:28::22) by DM6PR07MB5449.namprd07.prod.outlook.com
+ (2603:10b6:5:2d::26) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.1294.31; Sat, 17 Nov
+ 2018 11:51:59 +0000
+Received: from SN1NAM02FT028.eop-nam02.prod.protection.outlook.com
+ (2a01:111:f400:7e44::202) by SN4PR0701CA0012.outlook.office365.com
+ (2603:10b6:803:28::22) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id 15.20.1339.20 via Frontend
+ Transport; Sat, 17 Nov 2018 11:51:59 +0000
+Authentication-Results: spf=softfail (sender IP is 190.8.176.25)
+ smtp.mailfrom=consorcio.emmanuelips.co; nuevaeps.com.co; dkim=timeout (key
+ query timeout) header.d=consorcio.emmanuelips.co;nuevaeps.com.co;
+ dmarc=temperror action=none
+ header.from=consorcio.emmanuelips.co;compauth=softpass reason=201
+Received-SPF: SoftFail (protection.outlook.com: domain of transitioning
+ consorcio.emmanuelips.co discourages use of 190.8.176.25 as permitted sender)
+Received: from out8.sf5.colhost.com (190.8.176.25) by
+ SN1NAM02FT028.mail.protection.outlook.com (10.152.72.105) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id
+ 15.20.1339.15 via Frontend Transport; Sat, 17 Nov 2018 11:51:57 +0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=consorcio.emmanuelips.co; s=default; h=Content-Transfer-Encoding:
+	Content-Type:MIME-Version:Message-ID:Subject:From:To:Date:Sender:Reply-To:Cc:
+	Content-ID:Content-Description:Resent-Date:Resent-From:Resent-Sender:
+	Resent-To:Resent-Cc:Resent-Message-ID:In-Reply-To:References:List-Id:
+	List-Help:List-Unsubscribe:List-Subscribe:List-Post:List-Owner:List-Archive;
+	 bh=PYxzvOHNjxRR/RoQ0Nt4JhjySxm+SfFoK6ohOfFmLks=; b=XXUYXjm/XLqy9c6Gw9Q0WzQTY
+	Uadw2yTvSCTtFDvseF24F08hLUuAaH4fJOTOvmFSM0sUCK4C3ZcffCm+5pn/AwpfkxVRXyoQQAiDi
+	s7S01DenciSan3kC4qzsBsqcpu/ZXYtVLKfADJx6fCf214l2g+9YvsNV21ulYR5drZCwkCExtkjtR
+	RkKmaD2kWRcfShzIrrZjQBStQ/CU/Xf8+wA0D0DiybQ1wODp7QZS9viVivwYDZ6qXGjV5mQf0EI1P
+	g5tuGjMf5KWu45RMcMyBgBYX7jGSDlJ1gmxczKnulBpkSlydfDiARHl4ytciR/ySOnFZenZbHMiLe
+	HzC5Ce31g==;
+Date: Sat, 17 Nov 2018 06:51:12 -0500
+To: <referencia.contrareferencia@nuevaeps.com.co>,
+	<censo.hospitalario@nuevaeps.com.co>,
+	<referencia.subsidiado@nuevaeps.com.co>,
+	<direccionsaludmental@consorcio.emmanuelips.co>,
+	<direccioncientifica@consorcio.emmanuelips.co>,
+	<referencia@consorcio.emmanuelips.co>,
+	<bkreferencia@consorcio.emmanuelips.co>
+From: REFERENCIA CLINICA CONSORCIO EMMANUEL
+	<referencia@consorcio.emmanuelips.co>
+Subject: JOSE MAURICIO ROMERO MAHECHA CC: 1070975867
+Message-ID: <61beffcb8304a613c8c82ffb79b63101@sionsoftware.com>
+X-Priority: 3
+X-Mailer: PHPMailer 5.2.9 (https://github.com/PHPMailer/PHPMailer/)
+MIME-Version: 1.0
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+X-ColHost-Id: referencia@consorcio.emmanuelips.co
+Return-Path: referencia@consorcio.emmanuelips.co
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: c081fb3b-a4af-466b-b9af-962a3ec4307d:0
+X-Forefront-Antispam-Report: CIP:190.8.176.25;IPV:NLI;CTRY:CO;EFV:NLI;SFV:NSPM;SFS:(8156002)(3000300001)(189003)(199004)(23466002)(2160300002)(956004)(105596002)(53346004)(246002)(86362001)(6666004)(356004)(9686003)(6512007)(50226002)(6486002)(5566004)(6636002)(126002)(1096003)(486006)(1570700001)(23846002)(476003)(23756003)(26005)(50466002)(36736006)(336012)(7636002)(63370400001)(8676002)(217873002)(106466001)(7596002)(305945005)(89996002)(81686011)(33896004)(24736004)(74482002)(16003)(36756003)(25786009)(2870700001)(5660300001)(6506007)(108616005)(86286002)(450100002);DIR:INB;SFP:;SCL:1;SRVR:DM6PR07MB5449;H:out8.sf5.colhost.com;FPR:;SPF:SoftFail;LANG:es;PTR:out8.sf5.colhost.com;MX:1;A:1;
+X-Microsoft-Exchange-Diagnostics: 1;SN1NAM02FT028;1:oGL3ihY92Md6tX9D+KP1lPZw29N7kLQ9y8tHdXxOQIBDL91IoBiszKv1e6wH3exlCqDHzDE8CH/N+LmIy1JTOZyuFS0M0a/v9fbTnRBs+/1t4/8oqXRprhPTV2rh3q9j
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: cf566836-a501-438e-55f8-08d64c8313c5
+X-Microsoft-Antispam: BCL:0;PCL:0;RULEID:(2390098)(7020095)(4652040)(5600074)(711020)(4605076)(1401272)(1421009)(1419027)(71702078);SRVR:DM6PR07MB5449;
+X-Microsoft-Exchange-Diagnostics: 1;DM6PR07MB5449;3:MTph3zbmAvdyzimoyYvq0pGCUr7ODC+wXceMwOEHPio45NsJJElvBU/i9Mg763zYlH41NJrfqF039G1Il+ThJwfDQY96h1pCGtpizjaCxHZ5erGVluIv9EL+bngn+MFGYWthS08Kor/1R9Lq+cRZTSrfUMztae9L7N3UYDF0yT+DzDfOG7rmoTI7QgmyL4GGbbAnZxsQ8yhNZwaGGvg70NTRL1pdeB4cWL7zOLUlzhB+wrWfIfJeCM1bwXDmTQW73YTyGyCnRQ9aXwLpn7W8jk0Wy4eySPjT1HJchmjFv4SOo0i7F1u9rdU4xmhxPrNDvDk3mPGRC4oDZ/cw5gnNOw==;25:7XqSvRv9s/yvNgHY7+g2J4TpV/UcbVxjiF/Kg00cWBckAfJd0LqYVLXTs0eZTIXHaWp22AgZvNTffORhpkYwltFvO8RwXIxn2+mOoc2jL/pQgrc6JML7GKkEIcFQeSQn5nypXZBXC5K8X2kRKqQSdT4cykzqQrb092HIqX231b+sz0ZjddS4RAswAp9qNVT5d+NVbuz7HZAikslLdNa3EeYm8YAiV++o+CfCAgRPBj0C4y+0Hc4yVW6rqwWZIHO61XdMk9MTT+TnNC1+K2v2Zrv1MHqzWxxDc28nX3hLKMtjfs7Ai3vE9OCXEL5Jhs1PcFnsMMEzBnxvOhPEpxNgnQ==;31:lMlQXM4Zd81pnN6DM6nwYYVHvEmJyOb+xP/sSzUIpb7fVJ4x0T2qjoYN2luqwtKoTB1VIYB8a3WtjidJ3PqQv3wBWS+Gtqk76xNamtuUCP46qGZGKVe4MaIXPll3rXTULhLQGZJ4bOYLBcjdybYhviumJYjyBKVfe+SoOzaL5raZ2tHwhHUj4jC4Yyh/C75j0Nze7QsQDr6q4gBIawvxbLKo/qVNy6oypiAiV1tH3cc=
+X-MS-TrafficTypeDiagnostic: DM6PR07MB5449:
+X-LD-Processed: c081fb3b-a4af-466b-b9af-962a3ec4307d,ExtAddr
+X-Microsoft-Exchange-Diagnostics: 1;DM6PR07MB5449;20:IIBqKEI4sY6oMRoj8PJ73zHEz47AfKbN1m6Q+x9uf/7REsQWEkW0UmoVHCtgNiXbXc/f17SxG1xapTrgCJaz3fNobFdz3pQIs26eBwF3gGD5WezBuVsHJ3YRpygHu5uvsKERCVq/JMMQyI2ft2oe6xS25fcooWDj0Wd1xrAfNHYf6RDPtAuPKTtXHuj3jiMe5aGrjooIyk92s6nnuewPvMRg0SXtYCXzOi79ByrebvrHtO7FYDyxxGk3teqsbiPe1kk15++T4f0FArDmzXuxHOEnCXCWpT4tJovVw9N5a4blDpS0RvW21uwXGxHDRVKAlcZywKM3+1QabMsfC10biK0NJIpTFr9hP6J73oTqIOSWG9/yf3Hb//6qzaVL6HzDP/acCQktcWBiT4y6X0lVsi/HnMfTYMeRg3bfGOcf7xjkdxdq/4rYaqSUJvl7YUEoqC2gBfO86TTzFdC4E/QUa7bX9vcq8t7yPUMfTJDUvD/mEPUl4xGR9zb5lr+IqruV;4:05NM//QkFCxfHRCgjgISoZkA9EiB2+rGWzgmTeXO6YI7K2UJfYrSFoyQwesHV3z2Ew/jlJz9hnis+iXXw/vksM+87GTv66yv38lWYK1QfKFxagAF+AFJKEx1A48eE3BjpkO+3hFn/7p8zGKSeW0hCfclUsVaY0kPzblnxp4goBXJxCmldw4NB9MdGsXH2KKmTZIxc7ZiEkOWG4Sc3+RW0jlsLVi3sk6zWEfB8aq4Wrl6EywROYgmnVd5LwrehKyCNOyC8Ay8Cao8dWkud+ShHBMqSlGGai194qcz3xkwf0EkYwoOajBdi0Q/MaDJZ9XUbdxjKy82ssLEDCP1k4O6BYGaiBQvJEfT2mUUyIgJX8c=
+X-Exchange-Antispam-Report-Test: UriScan:(194151415913766)(130873036417446);
+X-Exchange-Antispam-Report-CFA-Test: =?iso-8859-1?Q?BCL:0;PCL:0;RULEID:(8021118)(8001287)(8003045)(8040027)(80?=
+ =?iso-8859-1?Q?04135)(8007045)(2018062399030)(2018011200283)(2401047)(812?=
+ =?iso-8859-1?Q?1501046)(52410047)(2018011210174)(2018011211064)(201801121?=
+ =?iso-8859-1?Q?2028)(2018011213028)(2018011214028)(2018011215028)(2018011?=
+ =?iso-8859-1?Q?216028)(2018011217028)(2018011218028)(2018011219092)(20180?=
+ =?iso-8859-1?Q?11220252)(2018011221063)(2018011222027)(2018011223027)(201?=
+ =?iso-8859-1?Q?8011224027)(2018011225035)(2018011229035)(2018011232269)(2?=
+ =?iso-8859-1?Q?018011233052)(2018021202149)(98810176)(2018021203149)(9881?=
+ =?iso-8859-1?Q?5176)(1430530)(1431068)(1500222)(8020062)(8032027)(8030027?=
+ =?iso-8859-1?Q?)(8029027)(8008073)(8028028)(8031027)(8041027)(8042027)(80?=
+ =?iso-8859-1?Q?18054)(1501036)(1459058)(1631060)(823300264)(823350442)(82?=
+ =?iso-8859-1?Q?3411253)(9101536074)(10201501046)(3231415)(901025)(902075)?=
+ =?iso-8859-1?Q?(913088)(7045084)(9311033)(944501410)(9300000249)(93010042?=
+ =?iso-8859-1?Q?77)(52103095)(52105112)(52106170)(52408095)(98821027)(9882?=
+ =?iso-8859-1?Q?2027)(52401380)(52601095)(52505095)(52406095)(52305095)(52?=
+ =?iso-8859-1?Q?206095)(88860335)(93006095)(93001095)(3002001)(12181506113?=
+ =?iso-8859-1?Q?)(1610001)(8301001075)(8301003183)(148016)(201708071742011?=
+ =?iso-8859-1?Q?)(7699051)(76991095);SRVR:DM6PR07MB5449;BCL:0;PCL:0;RULEID?=
+ =?iso-8859-1?Q?:;SRVR:DM6PR07MB5449;?=
+X-Microsoft-Exchange-Diagnostics: =?iso-8859-1?Q?1;DM6PR07MB5449;23:a5i/qdShf3j7VcGFoVBxAXjubzyF/+DDiuc8zPG?=
+ =?iso-8859-1?Q?kz9/XUo2AyQ8C+dnGo8edw1Vjh6bvvWXOK6XPkT2uEnncbNHbrMfKs21wq?=
+ =?iso-8859-1?Q?paqZ94rUHgFRsUGe46hCRgdAqrMNI2fhOZRdZ93xj7yIfVhV1IFaaJF1R5?=
+ =?iso-8859-1?Q?sB2U1mLHebzAlAGr/dA+iFXUYbDQD6cybERRAGIrSneXUUBaMeXES068uF?=
+ =?iso-8859-1?Q?bPnWg1SkBD4aqtxP3k+eAXwHxwZqca2K6XZ6Aj0f6btLuceGchns+dWPQ6?=
+ =?iso-8859-1?Q?ZSg5v4Q/oCo1gw1/PbQdPx3v0dmg1p5A0J10fDPsWVHur1yZPosRc84XXu?=
+ =?iso-8859-1?Q?L6oPUPpHVPJvQmU47wXpdZKBqc3kF9f6I1cnm0ZctI55rSyfrCfl3tSrKo?=
+ =?iso-8859-1?Q?JzjRYFBwik24kQjDYfWeZ1dXQptd1QCt8IvA2hl+ny/qr96nekybrKvwyc?=
+ =?iso-8859-1?Q?bVVg2xmAVWaojpcW+KnTQkEeg1bM6RbRk0VnoEzFuI80JGmjaXYF0qxgQL?=
+ =?iso-8859-1?Q?S90gfF+ke9dC+wktk5t8SVLR5MbamSUrYXzksYQ1uq91r5IHQlB4jOLUI4?=
+ =?iso-8859-1?Q?Uws6Ku29Of+bYVy9M0w32FHN7a33orxYApUQlHrimrgFFgZYUBd1s4tf/D?=
+ =?iso-8859-1?Q?mEzw3CXBw6OcceUopPBI96Im7/qzQsKfdxv2ZrcJhAO7cej0lxfyvDRadN?=
+ =?iso-8859-1?Q?a8iKtdzLuJL412E3n9I57N68g7tE+itc6/hqbY5pem645O8oYiLa1am+GP?=
+ =?iso-8859-1?Q?/CRqOzOxv6I6MrH5cWT1aaRHBkXEJkg/3qdFNfXmDdbqxzieuW0UjjoN6f?=
+ =?iso-8859-1?Q?m5BwLqukFcBg/zdG/MNKwsejHUOBCQYBZqOT+DhKJsRUBY7t1A0yPAo8yL?=
+ =?iso-8859-1?Q?Wt/VCMUdrR6lSYo6oYAXYqEQXcVfGrUwyMWUsO/zdVFxTiQlVNG0xdwAax?=
+ =?iso-8859-1?Q?mx+me6b3ZauzdMCd/Mpgkzo9UKWBvVKyALeETCVajA0uYdn5HUSrD6xM1H?=
+ =?iso-8859-1?Q?X6UNf8pdj2HmZ6I58Cp78XeI52r/KoI7bn06FYRjC0x2JvJPeCuMrflpjP?=
+ =?iso-8859-1?Q?sthmN83wA9eEfrvpA438tU6rYK49an0FpLXfsy7pRUOBLIU4BGC3DdZ1+H?=
+ =?iso-8859-1?Q?a/KInXgrGQhSLfLjCnw2O/EBddyfGTesse8U7Eo98JjNvb7mrbn7YFJQLG?=
+ =?iso-8859-1?Q?+rZpDigWBPOFDJLfOKZareltge/wIrTlfliQP/XRaQiwPtQqUdhvGQ=3D?=
+X-Microsoft-Antispam-Message-Info: 26X3VFqimtpqHNv5niGml3a91tnqVxqKa1klO1AIawcCLug6IsdHXBQn2wrJJbknRl3+3a62Fyn8SB1fN8a5/2tO9S9BpTUr56k0L+MWQSrP5599LinH8lz973OjsMaRbNWh4NNzJxUzQB6dbFbcus/+9eP1UGwDYORqulwEzK7u6DDKyjJgNK/7ri2ZUaaYWgZVK4ZesWmNaBjv4IzeyEMzKTCWDrvixxCPME2ZqzhHIc6RJLrDm5auvNSoaSdYTLAMedbEnqXcjptyPB+Z5l7pWebYIpD8jpHJe9m6fklGOtN3stURQHbWLzSPvVFvYp4CQpgGKlDvxXnruO23rpINQbyurT7KmWqIBqG4oq4WEuRZjEKbROz+sTlsqChgAVj6Ysx5/tBEtOXoNleALXDYNAWwxMLOjmWZVjbKY+c7tFBTTL6ehBOXVivzqOxCDRrU3vUnCTaAGjjnDj+7cUUqWE0IA2jFTrpAxwepOxQ8BVwKFR3Gtm8wyItTJVbr8swAp6Bzgl/is+I+QbI4L/u4xXfWswnnHlzKZhNflsZdLHOiJNMsoJ9yXugNE9ewhsMZpK65srsvtToc2e358E3gjBpvuLpRkP92atXX+D2z76mIgD+Ppfvs7rM2bQuhOZqpKrfwnjq9LW9KpsKNcFW9lFD0iTEdeCjtc7iTpHhC3KeVbn2yJjwD/SY/fwD4j1ceI2zVwthNT3QEq61VST7Qskb05IFjOjepVPk2mJlTLgNX8O5hPU2VUzfUeBx8CNavWQzT5wI0BFbTrRt1iw==
+X-Microsoft-Exchange-Diagnostics: 1;DM6PR07MB5449;6:TF2q8bGiQsX/F9VLLSdhT+zV7AE6lQMWo2IYzS0MRHTVs2z/6FpImoA6sRNyKpeTbffM3Tg3VjJnGqATky7UaDHuqwfBzmbyZ5juiixSys7b2LdeKSNFBRKhoC6j9QGwvU3C79RbuNGwvk6DEatWHKPXxxOZxbBdii0sohVQvZeJi1/8qHS2QL2piBsikCaFcZyfcOpJr+R2qKeLFpFOy81SjWz+/fVTGOOkEsQdAUJR28aoTpKhBh0RloXZtoRKtBKREMGYMmlkC1nygpgYDIaJlPsAs8wW3vqXXkaV1vOQLXu+z4AeHuo6WmEVE1E/l0aDVbThAG+QakpA8BTxlFxwM9OCmuIibSfYWGdRQMs2z6TG1lloe2Tg4b6Z71aqnIWPC8CeUeXHrOP7t7XBFYXb1MHPepsj6tR2RTGUBzP8zjBBMl8kwxIXqDBS2cMFxmQqy0OdthtMGXQGIAtYdA==;5:e1k1gB2CQKOdnwZv/vy39V1P6KzWhjBJVVBr7yQgf8qYWg72cpbOZ4hzC44qXnQlwiJat3m2tdXvus27IjlbKfll0ev4zAWyCZAhaCiSN03bI4cgsFrRHbOuutl8XnlTXFU08KROR4FAUlWt3nVx+Fn3bPSxb4LCECXyFpFwOLk=;7:BrDZVkKmLIt2BupWmhZklzqr98rZxpVcXPZkFhwywfnXTHZr5GHrC8ykCIIgtY67IHC6+NNjh+itNfai9LNsBKGQv3uf2CYYsJ0O33D9+tO7n/YRIMkaH7Q1SKlcIUVv6kO0C2n8ejhXXJsr1dhbAA==
+SpamDiagnosticOutput: 1:99
+SpamDiagnosticMetadata: NSPM
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 17 Nov 2018 11:51:57.4536
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: cf566836-a501-438e-55f8-08d64c8313c5
+X-MS-Exchange-CrossTenant-Id: c081fb3b-a4af-466b-b9af-962a3ec4307d
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DM6PR07MB5449
+
+<p>Cordial saludo</p><p class=3D'text-left'><strong>La EPS solicita:</stron=
+g></p>
+															 <p class=3D'text-justify'>EN DIA=20
+
+
+
+CC 	1070975867 	Romero Mahecha 	Jose Mauricio 	22 	MEDIFACA IPS S.A.S - CUN=
+DINAMARCA - FACATATIVA 	CUNDINAMARCA 	X700 - LESION AUTOINFLIGIDA INTENCION=
+ALMENTE POR AHORCAMIENTO, ESTRANGULAMIENTO O SOFOCACION, EN VIVIENDA 	PSIQU=
+IATRIA
+
+
+
+           =20
+Direcci=F3n de acceso a servicios de salud
+GERENCIA OPERATIVA EN SALUD
+L=EDnea Nal. 018000952010 ? Bogot=E1 3077058
+Av. El Dorado N=B0 85D ? 55 Local 150
+Centro Comercial Dorado Plaza
+Bogot=E1 ? Colombia
+
+
+
+
+De: CLINICA MEDIFACA SAS <referenciaclinicamedifaca@hotmail.com>
+Enviado: viernes, 16 de noviembre de 2018 4:51 p.m.
+Para: Referencia Contrareferencia
+Asunto: REMISION JOSE ROMERO PSIQUIATRIA
+=20
+BUEN DIA
+SE INICIA REMISION
+GRACIAS
+
+DIANA CASALLAS
+Auxiliar de Referencia y Contra Referencia
+Cl=EDnica MEDIFACA S.A.S
+</p><p class=3D'text-left'><strong>La IPS Responde:</strong></p>
+															 <p class=3D'text-justify'>Se acepta paciente en Sede Facata=
+tiv=E1 Vereda los manzanos Km3 V=EDa Florida Anolaima.=A0 Requiere autoriza=
+ci=F3n para hospitalizaci=F3n en unidad de salud mental.=A0 Debe acudir en =
+compa=F1=EDa de familiar.
+</p><p class=3D'text-left'><strong>Medico que recibe:</strong> Cindy Mileid=
+y Cely Guzman</p><br><p class=3D'text-left'>Referencia y contrareferencia</=
+p>
+															 <p class=3D'text-left'>Cl=EDnica consorcio emmanuel</p>
+															 <p class=3D'text-left'>TEL: 4431850 Ext: 201 - 200 - 304596=
+8650</p><p class=3D'text-center text-primary'>CONSORCIO CL=CDNICA EMMANUEL =
+---- Vereda los manzanos Km3 V=EDa Florida Anolaima, Facatativa-Cundinamarc=
+a</p>
+
